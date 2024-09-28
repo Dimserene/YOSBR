@@ -40,7 +40,7 @@ do
             end
         end
     end
-    local succ, err = pcall(recursiveCopy, "yosbr", "")
+    local succ, err = pcall(recursiveCopy, "Mods/YOSBR/config", "")
     if not succ then 
         print("[YOSBR] Error running YOSBR.", err)
     end
